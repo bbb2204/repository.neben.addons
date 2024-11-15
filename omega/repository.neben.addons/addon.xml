@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.neben.addons" name="Neben Add-on Store" version="1.0-alpha1" provider-name="Ruby_OS">
     <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
+        <dir minversion="21.0.0" maxversion="21.9.9">
             <info compressed="false">https://raw.githubusercontent.com/bbb2204/repository.neben.addons/master/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/bbb2204/repository.neben.addons/master/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/bbb2204/repository.neben.addons/master/omega/zips/</datadir>
